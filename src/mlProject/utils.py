@@ -13,7 +13,7 @@ user= os.getenv("user")
 password= os.getenv("password")
 db= os.getenv("db")
 
-def real_sql_data():
+def read_sql_data():
     logging.info("Reading SQL database started")
     try:
         mydb=pymysql.connect(
